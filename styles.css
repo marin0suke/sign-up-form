@@ -43,7 +43,7 @@ body {
     flex-wrap: wrap; 
     gap: 15px; 
     max-width: 600px; /* Limit form width to control layout */
-    margin: 0 auto; /* Center the form */
+    margin: 40px;
 }
 
 form {
