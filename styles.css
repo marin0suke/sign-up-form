@@ -22,6 +22,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .sign-up-form {
@@ -37,7 +38,13 @@ body {
     background-color: #f8f9eac7;
 }
 
-
+#sign-up-form {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px; 
+    max-width: 600px; /* Limit form width to control layout */
+    margin: 0 auto; /* Center the form */
+}
 
 form {
     display: flex;
@@ -52,6 +59,8 @@ form {
     flex-direction: column;
     font-size: .7em;
     gap: .3em;
+    flex: 1 1 48%; /* Ensures two items per row with equal width */
+    min-width: 280px; 
 }
 
 .footer {
